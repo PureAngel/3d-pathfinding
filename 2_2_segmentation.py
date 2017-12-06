@@ -1,7 +1,5 @@
 # Segment ground voxels
 
-# May 2016 - Martijn Koopman
-
 # ToDo: Clean code; Pass variable dims to function GetArrValue() and SetArrValue() as arguments.
 # ToDo: Clean code; Use for loop to iterate over neighbours. 
 

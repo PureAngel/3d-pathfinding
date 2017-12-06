@@ -5,8 +5,6 @@
 # Input 3: Start position (Probe location)
 # Input 4: End position (Probe location)
 
-# June 2016 - Martijn Koopman
-
 # User defined parameter:
 vertical_footspan = 1
 
@@ -67,9 +65,9 @@ def ShortestPathGrid(voxels, start, end, distanceArr):
                     
                     if next in voxels:   
                        if x_r != 0 and y_r != 0 :
-                          new_cost = cost_so_far[current] + 30 + abs(z_r) + distanceArr[next]
+                          new_cost = 2*(cost_so_far[current] + 30 + abs(z_r)) + distanceArr[next]
                        else:
-                          new_cost = cost_so_far[current] + 20 + abs(z_r) + distanceArr[next]
+                          new_cost = 2*(cost_so_far[current] + 20 + abs(z_r)) + distanceArr[next]
                         
                     if next in voxels and (next not in cost_so_far or new_cost < cost_so_far[next]):
                         cost_so_far[next] = new_cost 

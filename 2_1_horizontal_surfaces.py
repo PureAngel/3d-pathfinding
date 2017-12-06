@@ -1,7 +1,5 @@
 # Extract voxels just above horizontal surfaces
 
-# May 2016 - Martijn Koopman
-
 # ToDo: Clean code; pass variable dims to function GetArrValue() and SetArrValue() as arguments
 
 idi = self.GetInput()

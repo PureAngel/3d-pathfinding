@@ -3,8 +3,6 @@
 # - Object has value 0
 # - Empty space has value infinity (A number greater than the maximum possible distance)
 
-# May 2016 - Martijn Koopman
-
 # ToDo: Clean code; pass variable dims to function GetArrValue() and SetArrValue() as arguments
 
 # Read input

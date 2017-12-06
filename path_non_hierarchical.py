@@ -4,8 +4,6 @@
 # Input 2: Start position (Probe location)
 # Input 3: End position (Probe location)
 
-# June 2016 - Martijn Koopman
-
 # User defined parameter:
 vertical_footspan = 1
 

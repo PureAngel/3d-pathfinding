@@ -1,7 +1,5 @@
 # Segment ground voxels
 
-# May 2016 - Martijn Koopman
-
 # User defined parameter:
 segment_num = 1       # Number of segment that includes floor and stairs
 

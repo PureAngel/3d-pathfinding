@@ -1,8 +1,5 @@
 # define navigable space from distance image
 
-# May 2017 May
-
-
 # Convert unsigned char scalar to unsigned short scalar
 idi = self.GetInput()
 dims = idi.GetDimensions()

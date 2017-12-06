@@ -1,8 +1,6 @@
 # Scalar UChar To UInt
 # Convert unsigned char (8 bit) to unsigned integer (32 bit)
 
-# May 2016 - Martijn Koopman
-
 idi = self.GetInput()
 dims = idi.GetDimensions()
 numTuples = dims[0]*dims[1]*dims[2]
